@@ -173,11 +173,6 @@ address {
   line-height: inherit;
 }
 
-.calendly-inline-widget{
-  height:650px;
-  min-width: 320px;
-}
-
 ol,
 ul {
   padding-left: 2rem;
@@ -5650,29 +5645,6 @@ textarea.form-control-lg {
 }
 .modal-fullscreen .modal-footer {
   border-radius: 0;
-}
-@media (max-width: 328px) {
-  .modal-fullscreen-sm-down {
-    width: 100vw;
-    max-width: none;
-    height: 100%;
-    margin: 0;
-  }
-  .modal-fullscreen-sm-down .modal-content {
-    height: 100%;
-    border: 0;
-    border-radius: 0;
-  }
-  .modal-fullscreen-sm-down .modal-header {
-    border-radius: 0;
-    background-color: red;
-  }
-  .modal-fullscreen-sm-down .modal-body {
-    overflow-y: auto;
-  }
-  .modal-fullscreen-sm-down .modal-footer {
-    border-radius: 0;
-  }
 }
 
 @media (max-width: 575.98px) {
@@ -11459,7 +11431,7 @@ html {
 }
 
 .masthead {
-  padding-top: calc(0rem + 74px);
+  padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
 }
 .masthead .masthead-heading {
@@ -11475,7 +11447,7 @@ html {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(0rem + 104px);
+    padding-top: calc(6rem + 104px);
     padding-bottom: 6rem;
   }
   .masthead .masthead-heading {

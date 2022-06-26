@@ -1,0 +1,27 @@
+@media (min-width: 500px) {
+    .calendly-inline-widget {
+        height:650px;
+    }
+  }
+
+@media (max-width: 500px) {
+    .calendly-inline-widget {
+      height: 900px;
+    }
+  }
+
+  .calendly-inline-widget{
+    overflow-y: hidden;
+  }
+
+
+
+@media (max-width: 500px){
+    #portfolio {
+        height: 1200px;
+        overflow: hidden;
+    }
+}
+
+
+
